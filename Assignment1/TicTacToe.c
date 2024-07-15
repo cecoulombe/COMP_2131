@@ -49,7 +49,7 @@ int main(void)
     {
         printf("Lets play! Good luck %s!\n", playerName);
         // clear the board and reset the winner
-        memset(board, 0, sizeof board);
+        memset(board, ' ', sizeof board);
         winner = 0;
 
         displayBoard();
@@ -127,7 +127,7 @@ int checkMove(int xCoor, int yCoor)
 {
     if(xCoor >= 0 && xCoor <= 2 && yCoor >= 0 && yCoor <= 2)
     {
-        return board[xCoor][yCoor] == 0;
+        return board[xCoor][yCoor] == ' ';
     }
 
     return 0;
@@ -139,8 +139,7 @@ int checkMove(int xCoor, int yCoor)
 void displayBoard()
 {
     // display the board and all the content in it
-    // printf("  %c | %c | %c\n---|---|---\n  %c | %c | %c\n---|---|---\n  %c | %c | %c\n", board[0][0], board[1][0], board[2][0], board[0][1], board[1][1], board[2][1], board[0][2], board[1][2], board[2][2]);
-    printf("  %c | %c | %c\n-----------\n  %c | %c | %c\n-----------\n  %c | %c | %c\n", board[0][0], board[1][0], board[2][0], board[0][1], board[1][1], board[2][1], board[0][2], board[1][2], board[2][2]);
+    printf(" %-2c| %-2c| %-2c\n---|---|---\n %-2c| %-2c| %-2c\n---|---|---\n %-2c| %-2c| %-2c\n", board[0][0], board[1][0], board[2][0], board[0][1], board[1][1], board[2][1], board[0][2], board[1][2], board[2][2]);
 }
 
 //-----------------------------------------------------------------------------------------------------------

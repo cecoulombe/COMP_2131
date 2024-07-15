@@ -1,0 +1,568 @@
+caitlincoulombe@Caitlins-MacBook-Air Assignment2 % clang BinaryRecords.c records.h
+caitlincoulombe@Caitlins-MacBook-Air Assignment2 % ./a.out
+		MAIN MENU
+1. Create the Binary File
+2. Display the contents of the file
+3. Seek a specific record
+4. Update the contents of a record
+5. Delete a record for the specific name
+6. Exit
+
+Please enter your choice .... 1
+
+New file records.bin was successfully created.
+
+		MAIN MENU
+1. Create the Binary File
+2. Display the contents of the file
+3. Seek a specific record
+4. Update the contents of a record
+5. Delete a record for the specific name
+6. Exit
+
+Please enter what you would like to do next .... 2
+
+Number of records in file: -66076420
+
+		MAIN MENU
+1. Create the Binary File
+2. Display the contents of the file
+3. Seek a specific record
+4. Update the contents of a record
+5. Delete a record for the specific name
+6. Exit
+
+Please enter what you would like to do next .... 6
+
+Have a good day.%                                                                                                              caitlincoulombe@Caitlins-MacBook-Air Assignment2 % clear
+
+
+
+
+
+caitlincoulombe@Caitlins-MacBook-Air Assignment2 % clang BinaryRecords.c records.h
+caitlincoulombe@Caitlins-MacBook-Air Assignment2 % ./a.out                        
+		MAIN MENU
+1. Create the Binary File
+2. Display the contents of the file
+3. Seek a specific record
+4. Update the contents of a record
+5. Delete a record for the specific name
+6. Exit
+
+Please enter your choice .... 1
+
+New file records.bin was successfully created.
+
+		MAIN MENU
+1. Create the Binary File
+2. Display the contents of the file
+3. Seek a specific record
+4. Update the contents of a record
+5. Delete a record for the specific name
+6. Exit
+
+Please enter what you would like to do next .... 2
+
+Number of records in file: 0
+
+		MAIN MENU
+1. Create the Binary File
+2. Display the contents of the file
+3. Seek a specific record
+4. Update the contents of a record
+5. Delete a record for the specific name
+6. Exit
+
+Please enter what you would like to do next .... 4
+
+Do you want to edit an existing record or create a new record?
+1 = Edit an existing record.
+2 = Create a new record.
+Please enter your choice ....2
+
+Number of records in file: 0
+Please enter the following information for the new record:
+Student ID: TRU001
+
+Student First and Last Name: Caitlin Coulombe
+
+Email ID: ccoulombe@gmail.com
+
+Course ID: COMP2131
+
+Course Grade: A
+
+Data being appended: 
+Record number: 1
+Student ID: TRU001
+Student Name: Caitlin Coulombe
+Email ID: ccoulombe@gmail.com
+Course ID: COMP2131
+Grade: A
+
+		MAIN MENU
+1. Create the Binary File
+2. Display the contents of the file
+3. Seek a specific record
+4. Update the contents of a record
+5. Delete a record for the specific name
+6. Exit
+
+Please enter what you would like to do next .... 4
+
+Do you want to edit an existing record or create a new record?
+1 = Edit an existing record.
+2 = Create a new record.
+Please enter your choice ....2
+
+Number of records in file: 1
+Please enter the following information for the new record:
+Student ID: 12345
+
+Student First and Last Name: Beyonce
+
+Email ID: bebe@aol.com
+
+Course ID: CS 2
+
+Course Grade: B-
+
+Data being appended: 
+Record number: 2
+Student ID: 12345
+Student Name: Beyonce
+Email ID: bebe@aol.com
+Course ID: CS 2
+Grade: B-
+
+		MAIN MENU
+1. Create the Binary File
+2. Display the contents of the file
+3. Seek a specific record
+4. Update the contents of a record
+5. Delete a record for the specific name
+6. Exit
+
+Please enter what you would like to do next .... 4
+
+Do you want to edit an existing record or create a new record?
+1 = Edit an existing record.
+2 = Create a new record.
+Please enter your choice ....2
+
+Number of records in file: 2
+Please enter the following information for the new record:
+Student ID:  
+
+Student First and Last Name:  
+
+Email ID:  
+
+Course ID:  
+
+Course Grade:  
+
+Data being appended: 
+Record number: 3
+Student ID:  
+Student Name:  
+Email ID:  
+Course ID:  
+Grade:  
+
+		MAIN MENU
+1. Create the Binary File
+2. Display the contents of the file
+3. Seek a specific record
+4. Update the contents of a record
+5. Delete a record for the specific name
+6. Exit
+
+Please enter what you would like to do next .... 4
+
+Do you want to edit an existing record or create a new record?
+1 = Edit an existing record.
+2 = Create a new record.
+Please enter your choice ....2
+
+Number of records in file: 3
+Please enter the following information for the new record:
+Student ID: 4
+
+Student First and Last Name: 4
+
+Email ID: 4
+
+Course ID: 4
+
+Course Grade: 4
+
+Data being appended: 
+Record number: 4
+Student ID: 4
+Student Name: 4
+Email ID: 4
+Course ID: 4
+Grade: 4
+
+		MAIN MENU
+1. Create the Binary File
+2. Display the contents of the file
+3. Seek a specific record
+4. Update the contents of a record
+5. Delete a record for the specific name
+6. Exit
+
+Please enter what you would like to do next .... 2
+
+Number of records in file: 4
+ *** Record Number: 1 ***
+Student ID: TRU001
+Student Name: Caitlin Coulombe
+Email ID: ccoulombe@gmail.com
+Course ID: COMP2131
+Grade: A
+
+ *** Record Number: 2 ***
+Student ID: 12345
+Student Name: Beyonce
+Email ID: bebe@aol.com
+Course ID: CS 2
+Grade: B-
+
+ *** Record Number: 3 ***
+Student ID:  
+Student Name:  
+Email ID:  
+Course ID:  
+Grade:  
+
+ *** Record Number: 4 ***
+Student ID: 4
+Student Name: 4
+Email ID: 4
+Course ID: 4
+Grade: 4
+
+
+		MAIN MENU
+1. Create the Binary File
+2. Display the contents of the file
+3. Seek a specific record
+4. Update the contents of a record
+5. Delete a record for the specific name
+6. Exit
+
+Please enter what you would like to do next .... 3
+
+Number of records in file: 4
+How would you like to identify the record to print?
+1. Record number
+2. Student name
+1
+Enter the number of the record to print (max is 4): 3
+ *** Record Number: 3 ***
+Student ID:  
+Student Name:  
+Email ID:  
+Course ID:  
+Grade:  
+
+
+		MAIN MENU
+1. Create the Binary File
+2. Display the contents of the file
+3. Seek a specific record
+4. Update the contents of a record
+5. Delete a record for the specific name
+6. Exit
+
+Please enter what you would like to do next .... 3
+
+Number of records in file: 4
+How would you like to identify the record to print?
+1. Record number
+2. Student name
+2
+Enter the name of the student whose record you want to print: Caitlin Coulombe
+ *** Record Number: 1 ***
+Student ID: TRU001
+Student Name: Caitlin Coulombe
+Email ID: ccoulombe@gmail.com
+Course ID: COMP2131
+Grade: A
+
+
+		MAIN MENU
+1. Create the Binary File
+2. Display the contents of the file
+3. Seek a specific record
+4. Update the contents of a record
+5. Delete a record for the specific name
+6. Exit
+
+Please enter what you would like to do next .... 4
+
+Do you want to edit an existing record or create a new record?
+1 = Edit an existing record.
+2 = Create a new record.
+Please enter your choice ....1
+
+Number of records in file: 4
+How would you like to identify the record to update?
+1. Record number
+2. Student name
+2
+Enter the name of the student whose record you want to print: Caitlin Coulombe
+Please enter the following information for the updated record:
+Student ID: TRU001
+
+Student First and Last Name: Caitlin Coulombe
+
+Email ID: ccoulombe@gmail.com
+
+Course ID: COMP2131
+
+Course Grade: A+
+
+Data being appended: 
+Record number: 1
+Student ID: TRU001
+Student Name: Caitlin Coulombe
+Email ID: ccoulombe@gmail.com
+Course ID: COMP2131
+Grade: A+
+
+		MAIN MENU
+1. Create the Binary File
+2. Display the contents of the file
+3. Seek a specific record
+4. Update the contents of a record
+5. Delete a record for the specific name
+6. Exit
+
+Please enter what you would like to do next .... 3
+
+Number of records in file: 4
+How would you like to identify the record to print?
+1. Record number
+2. Student name
+1
+Enter the number of the record to print (max is 4): 1
+ *** Record Number: 1 ***
+Student ID: TRU001
+Student Name: Caitlin Coulombe
+Email ID: ccoulombe@gmail.com
+Course ID: COMP2131
+Grade: A+
+
+
+		MAIN MENU
+1. Create the Binary File
+2. Display the contents of the file
+3. Seek a specific record
+4. Update the contents of a record
+5. Delete a record for the specific name
+6. Exit
+
+Please enter what you would like to do next .... 5
+
+Number of records in file: 4
+How would you like to identify the record to delete?
+1. Record number
+2. Student name
+2
+Enter the name of the student whose record you want to delete:  
+Deleted record named  
+
+		MAIN MENU
+1. Create the Binary File
+2. Display the contents of the file
+3. Seek a specific record
+4. Update the contents of a record
+5. Delete a record for the specific name
+6. Exit
+
+Please enter what you would like to do next .... 2
+
+Number of records in file: 3
+ *** Record Number: 1 ***
+Student ID: TRU001
+Student Name: Caitlin Coulombe
+Email ID: ccoulombe@gmail.com
+Course ID: COMP2131
+Grade: A+
+
+ *** Record Number: 2 ***
+Student ID: 12345
+Student Name: Beyonce
+Email ID: bebe@aol.com
+Course ID: CS 2
+Grade: B-
+
+ *** Record Number: 3 ***
+Student ID: 4
+Student Name: 4
+Email ID: 4
+Course ID: 4
+Grade: 4
+
+
+		MAIN MENU
+1. Create the Binary File
+2. Display the contents of the file
+3. Seek a specific record
+4. Update the contents of a record
+5. Delete a record for the specific name
+6. Exit
+
+Please enter what you would like to do next .... 5
+
+Number of records in file: 3
+How would you like to identify the record to delete?
+1. Record number
+2. Student name
+1
+Enter the number of the record to delete (max is 3): 3
+Deleted record number 3
+
+		MAIN MENU
+1. Create the Binary File
+2. Display the contents of the file
+3. Seek a specific record
+4. Update the contents of a record
+5. Delete a record for the specific name
+6. Exit
+
+Please enter what you would like to do next .... 2
+
+Number of records in file: 2
+ *** Record Number: 1 ***
+Student ID: TRU001
+Student Name: Caitlin Coulombe
+Email ID: ccoulombe@gmail.com
+Course ID: COMP2131
+Grade: A+
+
+ *** Record Number: 2 ***
+Student ID: 12345
+Student Name: Beyonce
+Email ID: bebe@aol.com
+Course ID: CS 2
+Grade: B-
+
+
+		MAIN MENU
+1. Create the Binary File
+2. Display the contents of the file
+3. Seek a specific record
+4. Update the contents of a record
+5. Delete a record for the specific name
+6. Exit
+
+Please enter what you would like to do next .... 3
+
+Number of records in file: 2
+How would you like to identify the record to print?
+1. Record number
+2. Student name
+1
+Enter the number of the record to print (max is 2): 98
+Record number 98 not found.
+
+		MAIN MENU
+1. Create the Binary File
+2. Display the contents of the file
+3. Seek a specific record
+4. Update the contents of a record
+5. Delete a record for the specific name
+6. Exit
+
+Please enter what you would like to do next .... 5
+
+Number of records in file: 2
+How would you like to identify the record to delete?
+1. Record number
+2. Student name
+2
+Enter the name of the student whose record you want to delete: Adele
+Record with name Adele not found.
+
+		MAIN MENU
+1. Create the Binary File
+2. Display the contents of the file
+3. Seek a specific record
+4. Update the contents of a record
+5. Delete a record for the specific name
+6. Exit
+
+Please enter what you would like to do next .... 4
+
+Do you want to edit an existing record or create a new record?
+1 = Edit an existing record.
+2 = Create a new record.
+Please enter your choice ....1
+
+Number of records in file: 2
+How would you like to identify the record to update?
+1. Record number
+2. Student name
+2
+Enter the name of the student whose record you want to print: Beyonce
+Please enter the following information for the updated record:
+Student ID: unknown
+
+Student First and Last Name: unknown
+
+Email ID: unknown
+
+Course ID: unknown
+
+Course Grade: DNF
+
+Data being appended: 
+Record number: 2
+Student ID: unknown
+Student Name: unknown
+Email ID: unknown
+Course ID: unknown
+Grade: DNF
+
+		MAIN MENU
+1. Create the Binary File
+2. Display the contents of the file
+3. Seek a specific record
+4. Update the contents of a record
+5. Delete a record for the specific name
+6. Exit
+
+Please enter what you would like to do next .... 2
+
+Number of records in file: 2
+ *** Record Number: 1 ***
+Student ID: TRU001
+Student Name: Caitlin Coulombe
+Email ID: ccoulombe@gmail.com
+Course ID: COMP2131
+Grade: A+
+
+ *** Record Number: 2 ***
+Student ID: unknown
+Student Name: unknown
+Email ID: unknown
+Course ID: unknown
+Grade: DNF
+
+
+		MAIN MENU
+1. Create the Binary File
+2. Display the contents of the file
+3. Seek a specific record
+4. Update the contents of a record
+5. Delete a record for the specific name
+6. Exit
+
+Please enter what you would like to do next .... 6
+
+Have a good day.%                                                                                                              caitlincoulombe@Caitlins-MacBook-Air Assignment2 % 
