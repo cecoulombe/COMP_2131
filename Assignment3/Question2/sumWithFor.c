@@ -2,10 +2,7 @@
  * Date: July 6, 2024
  * Course: COMP 2131
  * Assignment 3: Write a C function to pass two numbers to the function and calculate the sum of all the numbers between them (both inclusive)
- *      * make a version with for loop
- *      * make a version with while loop
- *      * make a versio nwith do... while loop
- *      * make a version with goto loop
+ *      * version with for loop
  */
 
 // import headers
@@ -26,7 +23,7 @@ int main(int argc, char const *argv[])
 
     int total = sumArguments(num1, num2);
 
-    printf("The sum of all the numbers between %d and %d, inclusive, is %d", num1, num2, total);
+    printf("The sum of all the numbers between %d and %d, inclusive, is %d\n", num1, num2, total);
 
 }
 
